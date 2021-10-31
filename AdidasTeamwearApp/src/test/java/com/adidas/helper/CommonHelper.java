@@ -58,4 +58,12 @@ public class CommonHelper {
 	public static List<AndroidElement> getReviewList(){
 		return driver.findElements(TeamwearElementsPage.XP_OF_REVIEWLIST);
 	}
+	
+	public static void verifyProduct() {
+		//Click on particular product image
+		CommonHelper.elementClick(TeamwearElementsPage.ID_OF_PRODUCTIMAGE);
+
+		//Wait till product image get loaded
+		CommonHelper.waitUntilVisibility(TeamwearElementsPage.ID_OF_PRODUCTIMAGE);
+	}
 }
