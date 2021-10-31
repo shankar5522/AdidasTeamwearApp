@@ -7,4 +7,8 @@ public class TeamWearConstant {
 	public static final String MAIN_ACTIVITY = "com.example.challenge.MainActivity";
 	public static final String APP_CHALLENGE = "com.example.challenge";
 	public static final long SLEEP = 30;
+	public static final String PRODUCT = "Energetic Sign";
+	public static final String PRICE = "82.0 $";
+	public static final int RATING = 5;
+	public static final String ReviewText = "My Product Test Review";
 }

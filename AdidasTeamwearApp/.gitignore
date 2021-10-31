@@ -1,3 +1,5 @@
 /target/
 /.classpath
 /.project
+/testng.xml
+/test-output/
